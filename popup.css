@@ -1,0 +1,56 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 16px;
+  width: 300px;
+  background-color: #001122; /* Adyen Dark Blue */
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+#qrcode {
+  padding: 12px;
+  background: white;
+  border: 4px solid #0ABF53; /* Adyen Green */
+  border-radius: 4px;
+  min-height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#qrcode img {
+  display: block;
+}
+
+.status-message {
+  font-size: 14px;
+  color: #0ABF53; /* Adyen Green for normal status */
+  text-align: center;
+  font-weight: 500;
+}
+
+.char-count {
+  font-size: 12px;
+  color: #99aabb;
+}
+
+.policy-banner {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #334455;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.warning {
+  color: #ffcc00; /* Contrast warning color */
+}
